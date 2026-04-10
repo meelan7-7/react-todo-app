@@ -57,10 +57,10 @@ function App() {
 
       <ToDoList
         todos={todos}
-        deleteTodo={deleteTodo}
+        deleteTodo={deleteTodo}         // Add and delete functionality implemented
         toggleComplete={toggleComplete}
         editTodo={editTodo}
-      />
+      />                                            
     </div>
   );
 }
