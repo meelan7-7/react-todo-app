@@ -42,7 +42,7 @@ ul {
 /* Task item layout */
 li {
   display: flex;
-  align-items: center;
+  align-items: center;        /* Final UI improvement */ 
   gap: 10px;
   margin: 10px auto;
   width: fit-content;
