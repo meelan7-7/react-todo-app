@@ -6,7 +6,7 @@ function ToDoItem({ todo, deleteTodo, toggleComplete, editTodo }) {
 
   const handleEdit = () => {
     if (newText.trim() === "") return;
-    editTodo(todo.id, newText);
+    editTodo(todo.id, newText);                // Edit feature added 
     setIsEditing(false);
   };
 
